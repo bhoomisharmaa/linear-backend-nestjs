@@ -1,5 +1,9 @@
 version: 0.2
-
+env:
+  variables:
+    REPO_URL: 'https://github.com/bhoomisharmaa/linear-backend-nestjs.git'
+    REPO_NAME: 'linear-backend-nestjs'
+    COMMIT_HASH: 'e8b9f3f0ff97361e14ae078dfd9fa566dfb2ccb0'
 phases:
   install:
     commands:
